@@ -43,9 +43,9 @@ harness = false
 typed-arena = "2.0.2"
 shell-words = { version = "1.1", optional = true }
 emojis = { version = "0.9", optional = true }
-arbitrary = { version = "1", optional = true, features = ["derive"] }
-bon = { version = "3", optional = true }
-caseless = "0.2"
+arbitrary = { version = "1.5.0", optional = true, features = ["derive"] }
+bon = { version = "3.10.3", optional = true }
+caseless = "0.2.2"
 fmt2io = { version = "1.0.0", optional = true }
 memchr-n = "0.1.7"
 phf = "0.14"
